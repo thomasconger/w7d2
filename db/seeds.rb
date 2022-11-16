@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+b1 = Band.new(name: "Test 1")
+b2 = Band.new(name: "Test 2")
+b3 = Band.new(name: "Test 3")
+
+b1.save
+b2.save
+b3.save

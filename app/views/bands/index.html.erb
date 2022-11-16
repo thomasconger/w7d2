@@ -1,0 +1,9 @@
+<h1>This is the list of all bands</h1>
+
+<% bands = Band.all %>
+
+<ol>
+  <% bands.each do |band| %>
+    <li> <%= band.name %> </li>
+  <% end%>
+</ol>
